@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <!--
+    <EditText
+        android:id="@+id/urlWeb1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Introduce la URL de la Web 1"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+        -->
+
+    <android.support.design.widget.TextInputLayout
+
+        android:id="@+id/urlWeb1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Introduce la URL de la Web 1"
+        android:inputType="textEmailAddress"
+        android:paddingStart="10dp"
+        android:layout_marginTop="20dp"
+        android:paddingEnd="10dp"
+        android:textColor="#000" >
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/urlWeb1_Toast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:textColor="#1A1A1A"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+
+
+    <android.support.design.widget.TextInputLayout
+
+        android:id="@+id/urlWeb2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Introduce la URL de la Web 2"
+        android:inputType="textEmailAddress"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:textColor="#000" >
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/urlWeb2_Toast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:textColor="#1A1A1A"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnEnviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Abrir WEB en los fragmet"
+        android:background="@drawable/botones"
+        android:layout_gravity="center"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"/>
+
+</LinearLayout>
